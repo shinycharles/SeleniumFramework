@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [selSlaesforceFramework]">
+  <test thread-count="5" name="Salesforce Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.ta.salesforce.testcases.TC_Login">
+        <methods>
+          <include name="setup"/>
+          <include name="LoginToWebsite"/>
+          <include name="teardown"/>
+          <include name="triggerDependency"/>
+        </methods>
+      </class> <!-- com.ta.salesforce.testcases.TC_Login -->
+    </classes>
+  </test> <!-- Salesforce Test(failed) -->
+</suite> <!-- Failed suite [selSlaesforceFramework] -->
